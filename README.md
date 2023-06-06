@@ -1,5 +1,3 @@
-# Q-learning-agent-Lab6
-
 
 The task is to implement a reinforcement learning problem using the "Taxi-v3" environment from the Gymnasium library. The game involves a taxi that can pick up passengers from one of four destinations and drop them off at a different desired destination. The agent's actions result in rewards or penalties as follows:
 •	Each step taken by the agent incurs a penalty of -1 point.
@@ -39,110 +37,6 @@ alpha = 0.5
 gamma = 0.6
 epsilon = 1.0
 exploration_decay_rate = 0.01
-
-Episode: 0, Average Reward: -4.33
-Episode: 100, Average Reward: -305.76
-Episode: 200, Average Reward: -148.98
-Episode: 300, Average Reward: -69.05
-Episode: 400, Average Reward: -23.72
-Episode: 500, Average Reward: -6.04
-Episode: 600, Average Reward: 1.59
-Episode: 700, Average Reward: 5.23
-Episode: 800, Average Reward: 6.34
-Episode: 900, Average Reward: 6.79
-Episode: 1000, Average Reward: 6.84
-Episode: 1100, Average Reward: 6.53
-Episode: 1200, Average Reward: 7.38
-Episode: 1300, Average Reward: 7.76
-Episode: 1400, Average Reward: 7.22
-Episode: 1500, Average Reward: 7.56
-Episode: 1600, Average Reward: 8.24
-Episode: 1700, Average Reward: 8.06
-Episode: 1800, Average Reward: 7.61
-Episode: 1900, Average Reward: 8.18
-Episode: 2000, Average Reward: 8.15
-Episode: 2100, Average Reward: 7.55
-Episode: 2200, Average Reward: 8.11
-Episode: 2300, Average Reward: 8.01
-Episode: 2400, Average Reward: 7.62
-Episode: 2500, Average Reward: 8.18
-Episode: 2600, Average Reward: 7.69
-Episode: 2700, Average Reward: 7.54
-Episode: 2800, Average Reward: 8.25
-Episode: 2900, Average Reward: 8.22
-Episode: 3000, Average Reward: 7.95
-Episode: 3100, Average Reward: 8.11
-Episode: 3200, Average Reward: 7.93
-Episode: 3300, Average Reward: 7.48
-Episode: 3400, Average Reward: 7.75
-Episode: 3500, Average Reward: 7.64
-Episode: 3600, Average Reward: 8.3
-Episode: 3700, Average Reward: 7.61
-Episode: 3800, Average Reward: 8.12
-Episode: 3900, Average Reward: 7.69
-Episode: 4000, Average Reward: 7.81
-Episode: 4100, Average Reward: 7.75
-Episode: 4200, Average Reward: 8.01
-Episode: 4300, Average Reward: 7.7
-Episode: 4400, Average Reward: 7.74
-Episode: 4500, Average Reward: 7.7
-Episode: 4600, Average Reward: 8.06
-Episode: 4700, Average Reward: 8.1
-Episode: 4800, Average Reward: 7.85
-Episode: 4900, Average Reward: 7.67
-Episode: 5000, Average Reward: 7.55
-Episode: 5100, Average Reward: 7.55
-Episode: 5200, Average Reward: 8.24
-Episode: 5300, Average Reward: 7.94
-Episode: 5400, Average Reward: 7.9
-Episode: 5500, Average Reward: 8.01
-Episode: 5600, Average Reward: 7.85
-Episode: 5700, Average Reward: 7.87
-Episode: 5800, Average Reward: 7.92
-Episode: 5900, Average Reward: 7.54
-Episode: 6000, Average Reward: 7.73
-Episode: 6100, Average Reward: 7.6
-Episode: 6200, Average Reward: 7.94
-Episode: 6300, Average Reward: 7.36
-Episode: 6400, Average Reward: 7.47
-Episode: 6500, Average Reward: 7.68
-Episode: 6600, Average Reward: 7.65
-Episode: 6700, Average Reward: 7.93
-Episode: 6800, Average Reward: 7.65
-Episode: 6900, Average Reward: 7.91
-Episode: 7000, Average Reward: 8.16
-Episode: 7100, Average Reward: 7.9
-Episode: 7200, Average Reward: 7.76
-Episode: 7300, Average Reward: 7.78
-Episode: 7400, Average Reward: 8.13
-Episode: 7500, Average Reward: 8.07
-Episode: 7600, Average Reward: 8.2
-Episode: 7700, Average Reward: 7.73
-Episode: 7800, Average Reward: 7.55
-Episode: 7900, Average Reward: 7.5
-Episode: 8000, Average Reward: 8.39
-Episode: 8100, Average Reward: 8.58
-Episode: 8200, Average Reward: 7.74
-Episode: 8300, Average Reward: 7.79
-Episode: 8400, Average Reward: 7.65
-Episode: 8500, Average Reward: 7.56
-Episode: 8600, Average Reward: 7.51
-Episode: 8700, Average Reward: 7.54
-Episode: 8800, Average Reward: 7.75
-Episode: 8900, Average Reward: 7.88
-Episode: 9000, Average Reward: 7.64
-Episode: 9100, Average Reward: 7.83
-Episode: 9200, Average Reward: 7.62
-Episode: 9300, Average Reward: 7.69
-Episode: 9400, Average Reward: 7.77
-Episode: 9500, Average Reward: 8.1
-Episode: 9600, Average Reward: 8.27
-Episode: 9700, Average Reward: 7.74
-Episode: 9800, Average Reward: 7.81
-Episode: 9900, Average Reward: 7.8
-train_q_learning_agenting completed.
-Score over time: 1.7219
-Total Reward: 17219.
 
 
 The QLearningAgent class is defined, which holds the Q-table and methods for updating the Q-table and implementing the epsilon-greedy policy.
@@ -224,5 +118,4 @@ Final Define hyperparameters
  
 
  
-
 
